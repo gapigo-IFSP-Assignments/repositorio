@@ -1,0 +1,82 @@
+body{
+    background-color: #FFFFFF;
+}
+
+div.content {
+    width: 50%;
+    height: 90%;
+    float: left;
+    /*background-color: #E1E3E7;*/
+}
+
+div.null {
+    height: 99px;
+}
+
+h1 {
+    margin: 20px;
+}
+
+p {
+    margin: 20px;
+    background-color: #E1E3E7;
+    color: black;
+    font-size: 130%;
+}
+
+div.imagens_laterais{
+    width: 50%;
+    float: left;
+}
+
+/* Imagens medium dentro da div imagens com 50% de tamanho*/
+div img.medium{
+    max-width:70%;
+    width: auto;
+    height: auto;
+}
+
+div#tabela_e_rodape{
+    width: 50%;
+    /*top: 90%;*/
+}
+
+table {
+    
+    border: none;
+    background-color: white;}
+
+th, td {
+    border: none;
+    background-color: #dddddd;
+    text-align: center;
+    padding: 5px;
+    }
+
+th, td:not(.vaga){
+    width: 100px;
+}
+
+figure#imagem3 {
+    margin: 0px;
+    position: relative;
+    top: 10px;
+}
+
+img.medium {
+    max-width:30%;
+    width: auto;
+    height: auto;
+        } 
+
+img.large {
+    max-width:700px;
+    width: auto;
+    height: auto;
+        } 
+
+img.logo{
+    max-width: 50%;
+    width: auto;
+    height: auto;
+}
